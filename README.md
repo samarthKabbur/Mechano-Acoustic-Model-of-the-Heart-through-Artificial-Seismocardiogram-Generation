@@ -1,0 +1,1 @@
+# Mechano-Acoustic-Model-of-the-Heart-through-Artificial-Seismocardiogram-Generation
