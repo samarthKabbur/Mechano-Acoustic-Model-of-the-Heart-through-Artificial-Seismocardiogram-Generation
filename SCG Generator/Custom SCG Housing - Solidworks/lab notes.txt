@@ -1,0 +1,55 @@
+propyl alchohol destroys polycarbonate plastics and filmms
+
+methyl alchohol destroys ABS plastics and films : is polycarbonate film elastic
+
+sent two to pig, and one broke. pig study was good data, then went bad. pig people gave singular ppg waveform so it was useless bc spO2 was needed.
+btw in the interest of good communication, here's everything im working on and an approximate time frame:
+
+projects:vibration table using raspberry pi
+	
+	 soluble plastic film for easier recycling of chest e-tattoo.
+
+to learn:
+
+	raspberry pi interface
+	C code
+	python signal processing MIT BSC lab
+	ML algorithms
+	Embedded systems
+	LHR application
+	IEEE robotics application
+	matlab
+	fast fourier transform
+	signal filtering and the different types of filter implementation like Butterworth, chevychev etc. And how to filter signals based 	on set frequencies
+
+to talk to:
+	
+	talk to tiande for the ecg tattoo codebase. he comes in around 4:30pm.
+	talk to jishnu for sneaking into embedded systems lab
+	-> the chemicals lady in the soft bioelectronics lab for getting plastics, alchohols, and training on the fume hood.
+
+meetings:
+	team meeting - tuesday at 3pm
+	group meeting - friday at 9am
+	
+
+to organize: 
+	CAD/Eagle model of chest e-tattoo
+	calendar
+	github codebase
+	research/notes of raspberry pi 
+
+possible projects: 
+	fully flexible ears
+	higher wire density
+	SpO2 on the chest
+	moving from coin cell to lion battery 
+	trimodal: PPG, SCG, ECG
+	bimodal: SCG, ECG
+	dual device: SCG+SCG, ECG
+
+	
+
+
+	
+

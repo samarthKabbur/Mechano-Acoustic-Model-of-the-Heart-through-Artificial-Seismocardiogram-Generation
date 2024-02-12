@@ -1,0 +1,156 @@
+P  JOB   C:/.../worklib/02_043217b_top/physical/08_043217b.brd                  
+P  FORM  F                                                                      
+P  CODE  00                                                                     
+P  DIM   N                                                                      
+P  UNITS CUST 0                                                                 
+P  TITLE C:/.../worklib/02_043217b_top/physical/08_043217b.brd                  
+P  NUM   001                                                                    
+P  REV   A                                                                      
+C                                                                               
+C  IPC-D-356 Ouptut File from Allegro                                           
+C  IPC File Date: Tue Jan 24 04:01:24 2017                                      
+C  Login Name:    mvicedo                                                       
+C                                                                               
+C                                                                               
+C  Board File:             08_043217b.brd                                       
+C  Design Rule Status:     UP TO DATE                                           
+C  Unit of Measure:        mils                                                 
+C  Decimal Place Accuracy: 2                                                    
+C  Number of etch Layers:  2                                                    
+C  Board Thickness(mils):  13.600000                                            
+C  Drawing Extents(mils):  -665000  -874000  2935000  1526000                   
+C                                                                               
+C                                                                               
+C  BOARD LAYER INFORMATION                                                      
+C                                                                               
+C     Layer      Layer            Layer             Film  Layer                 
+C     Name       Material         Type              Type  Number                
+C  ---------------------------------------------------------                    
+C  TOP           PLATED_COPPER_F  CONDUCTOR         POS     1                   
+C  BOTTOM        PLATED_COPPER_F  CONDUCTOR         POS     2                   
+C                                                                               
+C                                                                               
+C  PADSTACK INFORMATION                                                         
+C                                                                               
+C     Padstack          First     Last                                          
+C     Name              Layer     Layer     Width     Height                    
+C  ---------------------------------------------------------                    
+C  22X24                TOP       TOP            2700      2900                 
+C  FID040               TOP       TOP            8000      8000                 
+C  VIA2512              TOP       BOTTOM         4500      4500                 
+C  45X50                TOP       TOP            6500      7000                 
+C  35X32                TOP       TOP            5500      5200                 
+C  C65D45               TOP       BOTTOM         8500      8500                 
+C  S65D45               TOP       BOTTOM         8500      8500                 
+C  43X47                TOP       TOP            4800      5200                 
+C  22X73                TOP       TOP            2700      7800                 
+C                                                                               
+C                                                                               
+C  ****************************************                                     
+C             Tolerance Data                                                    
+C  ****************************************                                     
+C                                                                               
+C                                                                               
+C  Overall Printed Board Size                                                   
+P  TOL    0 1 000001 000001                                                     
+C  Overall Printed Board Thickness                                              
+P  TOL    1 1 000010 000010                                                     
+C  Overall Layer Thickness                                                      
+P  TOL    2 1 000001 000001                                                     
+C  Line Width                                                                   
+P  TOL    3 1 000001 000001                                                     
+C  Land Diameters                                                               
+P  TOL    4 1 000001 000001                                                     
+C  Finished Hole Diameter                                                       
+P  TOL    5 1 000001 000001                                                     
+C  Hole Locations                                                               
+P  TOL    6 1 000001 000001                                                     
+C  Other Features                                                               
+P  TOL    7 1 000001 000001                                                     
+C  Registration                                                                 
+P  TOL    8 1 000001 000001                                                     
+C                                                                               
+C      Area                                                                     
+P  AREA1 X-066500Y-087400X+293500Y+152600                                       
+C                                                                               
+C  ****************************************                                     
+C     Name mapping for long Signal names                                        
+C  ****************************************                                     
+C                                                                               
+C  NNAMEm0000 UNNAMED_2_ADXL355_I1_VSUPPLY                                      
+C  NNAMEm0001 UNNAMED_2_ADXL355_I1_V1P8DIG                                      
+C  NNAMEm0002 UNNAMED_2_ADXL355_I1_V1P8ANA                                      
+C                                                                               
+C  ****************************************                                     
+C      SIGNAL PINS & VIAS ON THE BOARD                                          
+C  ****************************************                                     
+C                                                                               
+327DRDY_PMOD        R1    -1          A01X+004110Y-000860X0220Y0240R270 S1      
+317DRDY_PMOD        VIA   -    MD0120PA00X+003700Y-000850X0250Y0250     S0      
+317DRDY_PMOD        P1    -10   D0450PA00X+002000Y+001000X0650Y0650R180 S3      
+317V_PMOD           P1    -6   MD0450PA00X+000000Y+000000X0650Y0650R180 S3      
+317V_PMOD           P1    -12  MD0450PA00X+000000Y+001000X0650Y0650R180 S3      
+327V_PMOD           C6    -2   M      A01X+000435Y-001250X0430Y0470     S1      
+327V_PMOD           C5    -2   M      A01X+000435Y-002050X0430Y0470     S1      
+327V_PMOD           U1    -5          A01X+001417Y-002050X0220Y0730R270 S1      
+317V_PMOD           VIA   -    MD0120PA00X+005050Y-001800X0250Y0250     S0      
+327V_PMOD           E2    -2          A01X+005050Y-002325X0450Y0500R090 S1      
+327m0000            U1    -11         A01X+003250Y-003633X0220Y0730R180 S1      
+327m0000            C4    -2   M      A01X+004250Y-003865X0430Y0470R090 S1      
+327m0000            C3    -2   M      A01X+005050Y-003865X0430Y0470R090 S1      
+327m0000            E2    -1          A01X+005050Y-003075X0450Y0500R090 S1      
+327m0001            C1    -1          A01X+000435Y-003600X0430Y0470R180 S1      
+327m0001            U1    -8          A01X+001750Y-003633X0220Y0730R180 S1      
+327m0002            U1    -10         A01X+002750Y-003633X0220Y0730R180 S1      
+327m0002            C2    -2          A01X+002835Y-004750X0430Y0470     S1      
+317SCLK             P1    -4    D0450PA00X+002000Y+000000X0650Y0650R180 S3      
+327SCLK             U1    -2          A01X+002750Y-001467X0220Y0730R180 S1      
+327MOSI             U1    -3          A01X+002250Y-001467X0220Y0730R180 S1      
+317MOSI             VIA   -    MD0120PA00X+002250Y-000850X0250Y0250     S0      
+317MOSI             P1    -2    D0450PA00X+004000Y+000000X0650Y0650R180 S3      
+327MISO             U1    -4          A01X+001750Y-001467X0220Y0730R180 S1      
+317MISO             VIA   -    MD0120PA00X+001750Y-000850X0250Y0250     S0      
+317MISO             P1    -3    D0450PA00X+003000Y+000000X0650Y0650R180 S3      
+327INT2             U1    -13         A01X+003583Y-002550X0220Y0730R270 S1      
+317INT2             P1    -9    D0450PA00X+003000Y+001000X0650Y0650R180 S3      
+327INT1             U1    -12         A01X+003583Y-003050X0220Y0730R270 S1      
+317INT1             P1    -7    D0450PA00X+005000Y+001000X0650Y0650R180 S3      
+327DRDY             U1    -14         A01X+003583Y-002050X0220Y0730R270 S1      
+327DRDY             R1    -2          A01X+004110Y-001240X0220Y0240R270 S1      
+317DGND             VIA   -    MD0120PA00X+000260Y-004150X0250Y0250     S0      
+317DGND             VIA   -    MD0120PA00X-000150Y-004550X0250Y0250     S0      
+327DGND             E1    -2   M      A01X+000260Y-004550X0350Y0320R180 S1      
+317DGND             VIA   -    MD0120PA00X-000235Y-000800X0250Y0250     S0      
+327DGND             C6    -1   M      A01X-000235Y-001250X0430Y0470     S1      
+317DGND             VIA   -    MD0120PA00X-000235Y-002550X0250Y0250     S0      
+327DGND             C5    -1   M      A01X-000235Y-002050X0430Y0470     S1      
+317DGND             VIA   -    MD0120PA00X-000235Y-003100X0250Y0250     S0      
+327DGND             C1    -2          A01X-000235Y-003600X0430Y0470R180 S1      
+317DGND             VIA   -    MD0120PA00X+000800Y-002550X0250Y0250     S0      
+327DGND             U1    -6          A01X+001417Y-002550X0220Y0730R270 S1      
+317DGND             P1    -11  MD0450PA00X+001000Y+001000X0650Y0650R180 S3      
+317DGND             P1    -5   MD0450PA00X+001000Y+000000X0650Y0650R180 S3      
+327CS               U1    -1          A01X+003250Y-001467X0220Y0730R180 S1      
+317CS               P1    -1    D0450PA00X+005000Y+000000X0650Y0650R180 S3      
+327AGND             E1    -1   M      A01X+000840Y-004550X0350Y0320R180 S1      
+317AGND             VIA   -    MD0120PA00X+001250Y-004550X0250Y0250     S0      
+317AGND             VIA   -    MD0120PA00X+000840Y-004150X0250Y0250     S0      
+327AGND             U1    -9          A01X+002250Y-003633X0220Y0730R180 S1      
+317AGND             VIA   -    MD0120PA00X+002250Y-004250X0250Y0250     S0      
+327AGND             C2    -1   M      A01X+002165Y-004750X0430Y0470     S1      
+317AGND             VIA   -    MD0120PA00X+001700Y-004750X0250Y0250     S0      
+327AGND             C4    -1   M      A01X+004250Y-004535X0430Y0470R090 S1      
+317AGND             VIA   -    MD0120PA00X+003800Y-004535X0250Y0250     S0      
+327AGND             C3    -1   M      A01X+005050Y-004535X0430Y0470R090 S1      
+317AGND             VIA   -    MD0120PA00X+005500Y-004535X0250Y0250     S0      
+C                                                                               
+C  ****************************************                                     
+C      DUMMY NET PINS & VIAS ON THE BOARD                                       
+C  ****************************************                                     
+C                                                                               
+317N/C              P1    -8    D0450PA00X+004000Y+001000X0650Y0650R180 S3      
+327N/C              U1    -7          A01X+001417Y-003050X0220Y0730R270 S1      
+C                                                                               
+C  End-of-Job                                                                   
+C                                                                               
+999                                                                             
